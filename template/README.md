@@ -29,4 +29,4 @@ yarn lint
 
 ---
 
-This project was generated with [electron-nuxt](https://github.com/michalzaq12/electron-nuxt) v{{templateVersion}} using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://github.com/michalzaq12/electron-nuxt/blob/master/README.md).
+This project was generated with [electron-nuxt](https://github.com/Unesmanet/electron-nuxt) v{{templateVersion}} based in [michalzaq12 template](https://github.com/michalzaq12/electron-nuxt) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://github.com/michalzaq12/electron-nuxt/blob/master/README.md).
