@@ -72,9 +72,11 @@ export default {
 
   methods: {
     getSystemInformation (element) {
+      if (!window.ipcRenderer) return
       window.ipcRenderer.send('get-system-information', element)
     },
     listenSystemDataReception () {
+      if (!window.ipcRenderer) return
       window.ipcRenderer.receive('get-system-information', (element, data) => {
         this.system[element] = data
       })
