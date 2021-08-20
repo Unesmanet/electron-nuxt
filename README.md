@@ -71,7 +71,7 @@ The boilerplate for making electron applications built with vue / nuxt.
 ```bash
 # Install vue-cli and scaffold boilerplate
 npm install -g @vue/cli-init
-vue init michalzaq12/electron-nuxt <project-name>
+vue init unesmanet/electron-nuxt <project-name>
 
 # Install dependencies and run your app
 cd <project-name>
