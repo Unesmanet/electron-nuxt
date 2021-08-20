@@ -5,37 +5,37 @@
       <div class="item">
         <div class="name">Nuxt.js:</div>
         <div class="value">
-          {{ system.nuxt }}
+          \{{ system.nuxt }}
         </div>
       </div>
       <div class="item">
         <div class="name">Vue.js:</div>
         <div class="value">
-          {{ system.vue }}
+          \{{ system.vue }}
         </div>
       </div>
       <div class="item">
         <div class="name">Electron:</div>
         <div class="value">
-          {{ system.electron }}
+          \{{ system.electron }}
         </div>
       </div>
       <div class="item">
         <div class="name">Node:</div>
         <div class="value">
-          {{ system.node }}
+          \{{ system.node }}
         </div>
       </div>
       <div class="item">
         <div class="name">Chrome:</div>
         <div class="value">
-          {{ system.chrome }}
+          \{{ system.chrome }}
         </div>
       </div>
       <div class="item">
         <div class="name">Platform:</div>
         <div class="value">
-          {{ system.platform }}
+          \{{ system.platform }}
         </div>
       </div>
     </div>
