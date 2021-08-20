@@ -3,7 +3,7 @@
  * This default configuration can be overwritten in this file
  * @link {https://nuxtjs.org/guide/configuration/}
  */
-
+const babelConfig = require('./babel.config')
 
 module.exports = {
   ssr: false,
@@ -33,9 +33,12 @@ module.exports = {
                   secondary: '#b0bec5',
                   accent: '#8c9eff',
                   error: '#b71c1c',
-                },
-              },
+                }
+              }
             }
-          }
+          },
   {{/if_eq}}
+  build: {
+    babel: babelConfig
+  }
 };
