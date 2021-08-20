@@ -5,42 +5,36 @@
       <div class="item">
         <div class="name">Nuxt.js:</div>
         <div class="value">
-          {{ nuxt }}
           {{ system.nuxt }}
         </div>
       </div>
       <div class="item">
         <div class="name">Vue.js:</div>
         <div class="value">
-          {{ vue }}
           {{ system.vue }}
         </div>
       </div>
       <div class="item">
         <div class="name">Electron:</div>
         <div class="value">
-          {{ electron }}
           {{ system.electron }}
         </div>
       </div>
       <div class="item">
         <div class="name">Node:</div>
         <div class="value">
-          {{ node }}
           {{ system.node }}
         </div>
       </div>
       <div class="item">
         <div class="name">Chrome:</div>
         <div class="value">
-          {{ chrome }}
           {{ system.chrome }}
         </div>
       </div>
       <div class="item">
         <div class="name">Platform:</div>
         <div class="value">
-          {{ platform }}
           {{ system.platform }}
         </div>
       </div>

@@ -1,3 +1,4 @@
 module.exports = [
-  'get-system-information'
+  'get-system-information',
+  'open-external'
 ]
